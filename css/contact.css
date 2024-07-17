@@ -1,0 +1,16 @@
+.bg-anchor {
+    background-image: url("/img/img-anchor.jpeg");
+    opacity: 0.3;
+    background-size: contain;
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: blur(1);
+    -webkit-filter: blur(1px);
+    height: 100%;
+    width: 100%;
+  }
+  .contact-wrap {
+    align-content: center;
+    padding-left: 5%;
+  }

@@ -1,0 +1,76 @@
+.txt-c-blue {
+  color: #2b9bff;
+}
+.txt-c-white {
+  color: #fff;
+}
+.txt-c-default {
+  color: #666565;
+}
+.txt-c-default-trans {
+  color: #666565bf;
+}
+.txt-c-dark-blue {
+  color: #1b4f8d;
+}
+.txt-header-xxl {
+  font-size: 52px;
+}
+.txt-header-lg {
+  font-size: 28px;
+}
+.txt-header-md {
+  font-size: 26px;
+}
+.txt-header-sm {
+  font-size: 24px;
+}
+.txt-header-xs {
+  font-size: 22px;
+}
+.txt-normal-lg {
+  font-size: 20px;
+}
+.txt-normal-md {
+  font-size: 18px;
+}
+.txt-normal-sm {
+  font-size: 16px;
+}
+.txt-normal-xs {
+  font-size: 14px;
+}
+
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.underline {
+  text-decoration-line: underline;
+}
+.max-width-80 {
+  max-width: 80%;
+}
+.line-height-1 {
+  line-height: 1;
+}
+.weight-300 {
+  font-weight: 300;
+}
+.weight-400 {
+  font-weight: 400;
+}
+.weight-500 {
+  font-weight: 500;
+}

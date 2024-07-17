@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Research</title>
+    <meta document="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta document="" name="keywords" />
+    <meta document="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+      .tag-card {
+        color: #666565bf;
+        margin-right: 5px;
+        font-weight: 300;
+      }
+      .no-card {
+        color: #2b9bff;
+        margin-right: 10px;
+      }
+      .card {
+      height: 200px;
+      border: 1px solid #e0e0e0; /* Light grey border */
+      border-radius: 15px; /* Rounded corners */
+      padding: 20px; /* Space inside the border */
+      text-align: center; /* Center align text */
+      margin: 10px; /* Space between cards */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+      transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+    }
+    .card:hover {
+      transform: translateY(-10px); /* Lift the card up */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    }
+    </style>
+  </head>
+
+  <body style="background-color: #fff">
+    <div class="container-xxl bg-white p-0">
+      <nav class="navbar sticky-top bg-body-tertiary">
+        <div class="container-fluid" style="border-bottom: 1px solid #1b1b1b13">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img
+              class="img-fluid m-0"
+              src="img/ku_logo.png"
+              alt=""
+              width="70px"
+            />
+            <div class="">
+              <h4 class="m-0">
+                Innovation and Research Unit : Research Portal
+              </h4>
+              <h5 class="m-0 txt-c-blue txt-normal-sm">
+                หน่วยนวัตกรรมและการวิจัย : พอร์ทัลการวิจัย
+              </h5>
+            </div>
+          </a>
+        </div>
+        <div class="container-fluid justify-content-center">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-lg-0">
+                  <a href="index.html" class="nav-item nav-link active mx-3"
+                    >Home</a
+                  >
+                  <a
+                    href="research-portal.html"
+                    class="nav-item nav-link menu-nav-active mx-3"
+                    >Research Portal</a
+                  >
+                  <a href="laboratory.html" class="nav-item nav-link mx-3"
+                    >Laboratory</a
+                  >
+
+                  <a href="documents.html" class="nav-item nav-link mx-3"
+                    >Documents</a
+                  >
+                  <a href="student-project.html" class="nav-item nav-link mx-3"
+                    >Student Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+    </div>
+
+    <!-- counting -->
+          <!-- counting -->
+          <div class="container-xxl bg-white mt-5 mb-6 p-0">
+            <div class="row justify-content-center">
+              <a
+                href="researcher.html"
+                class="col-2 text-center counting-box cursor-pointer wow fadeInUp" data-wow-delay="0.1s"
+              >
+                <div class="card">
+                  <div class="txt-header-xxl txt-c-blue counting" data-count="8">
+                    0
+                  </div>
+                  <div class="capitalize txt-c-default">
+                    <i class="fa fa-user icon-size"></i> researcher
+                  </div>
+                </div>
+              </a>
+              <a
+                href="research-articles.html"
+                class="col-2 text-center counting-box cursor-pointer wow fadeInUp" data-wow-delay="0.2s"
+              >
+                <div class="card">
+                  <div class="txt-header-xxl txt-c-blue counting" data-count="23">
+                    0
+                  </div>
+                  <div class="capitalize txt-c-default">
+                    <i class="fa fa-file-alt icon-size"></i> research articles
+                  </div>
+                </div>
+              </a>
+              <a
+                href="research-project.html"
+                class="col-2 text-center counting-box cursor-pointer wow fadeInUp" data-wow-delay="0.3s"
+              >
+                <div class="card">
+                  <div class="txt-header-xxl txt-c-blue counting" data-count="14">
+                    0
+                  </div>
+                  <div class="capitalize txt-c-default">
+                    <i class="fa fa-project-diagram icon-size"></i> research project
+                  </div>
+                </div>
+              </a>
+              <a
+                href="awards.html"
+                class="col-2 text-center counting-box cursor-pointer wow fadeInUp" data-wow-delay="0.2s"
+              >
+                <div class="card">
+                  <div class="txt-header-xxl txt-c-blue counting" data-count="4">
+                    0
+                  </div>
+                  <div class="capitalize txt-c-default">
+                    <i class="fa fa-trophy icon-size"></i> awards
+                  </div>
+                </div>
+              </a>
+              <a
+                href="intellectual-property.html"
+                class="col-2 text-center counting-box cursor-pointer wow fadeInUp" data-wow-delay="0.1s"
+              >
+                <div class="card">
+                  <div class="txt-header-xxl txt-c-blue counting" data-count="12">
+                    0
+                  </div>
+                  <div class="capitalize txt-c-default">
+                    <i class="fa fa-lightbulb icon-size"></i> intellectual property
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+    <div class="container-xxl mt-4 mb-2">
+      <div class="row">
+        <div
+          class="col-12 col-md-8 cat-item rounded p-4 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="d-flex justify-content-between">
+            <h1 class="txt-normal-sm capitalize txt-c-default">
+              <span class="text-secondary">23 </span> Documents
+            </h1>
+            <div class="">
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-sm"
+                onclick="click"
+              >
+                <span class="fa fa-1x fa fa-download"></span>
+                <span>EXPORT</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="documentList">
+            <!-- <div class="default-card">
+              <div
+                class="align-items-center wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <h5 class="title-card">
+                  <span class="no-card">1</span>Solvatomorphism and anion effects in predominantly low spin
+                  iron(iii) Schiff base complexes
+                </h5>
+                <div class="tagCardList mb-2">
+                  <span class="tag-card">Theerapoom Boonprab</span>
+                  <span class="tag-card">Phimphaka Harding</span> 
+                </div>
+                <div class="txt-c-default">
+                  Dalton Transactions, Volume 47, Issue 35, Pages 12449-12458, 1 Jan 2018
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="col-12 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="cat-item rounded p-4" href="">
+            <i class="fa fa-1x fa fa-filter text-secondary mb-4"></i>
+            <span class="mb-3">Filter</span>
+            <div class="txt-normal-lg">
+              Published Year
+              <div class="txt-normal-sm publishedList"></div>
+            </div>
+            <div class="txt-normal-lg mt-4">
+              Resource Type
+              <div class="txt-normal-sm resourceList"></div>
+            </div>
+            <div class="txt-normal-lg mt-4">
+              Author
+              <div class="txt-normal-sm authorList"></div>
+            </div>
+            <div class="txt-normal-lg mt-4">
+              Keyword
+              <div class="txt-normal-sm keywordList"></div>
+            </div>
+            <div class="txt-normal-lg mt-4">
+              Affiliation
+              <div class="txt-normal-sm affiliationList"></div>
+            </div>
+            <div class="txt-normal-lg mt-4">
+              Fiscal Year
+              <div class="txt-normal-sm fiscalList"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">xxxx</h5>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">xxxxx</h5>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+            <a class="btn btn-link text-white-50" href="">xxxxx</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-white mb-4">Contact</h5>
+            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>xxxx</p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>xxxxx</p>
+            <p class="mb-2"><i class="fa fa-envelope me-3"></i>xxxxx</p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/counter.js"></script>
+    <script>
+      var documentList = [
+        {
+          name: "Solvatomorphism and anion effects in predominantly low spin iron(iii) Schiff base complexes",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Albumin levels in malaria patients: a systematic review and meta-analysis of their association with disease severity",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "A Quasi-3D theory for bending, vibration and buckling analysis of FG-CNTRC and GPLRC curved beams",
+          authors: [
+            "Phimphaka Harding",
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Chemical compositions and characterisation of skin gelatin from farmed giant catfish (Pangasianodon gigas)",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Chemical compositions and characteristics of farm raised giant catfish (Pangasianodon gigas) muscle",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Gel properties of croaker-mackerel surimi blend",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Physicochemical and gelling properties of short-bodied mackerel (Rastrelliger brachysoma) protein isolate prepared using alkaline-aided process",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Physicochemical properties and gel-forming ability of surimi from three species of mackerel caught in Southern Thailand",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Biochemical and gelling properties of tilapia surimi and protein recovered using an acid-alkaline process",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Solvatomorphism and anion effects in predominantly low spin iron(iii) Schiff base complexes",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Albumin levels in malaria patients: a systematic review and meta-analysis of their association with disease severity",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "A Quasi-3D theory for bending, vibration and buckling analysis of FG-CNTRC and GPLRC curved beams",
+          authors: [
+            "Phimphaka Harding",
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Chemical compositions and characterisation of skin gelatin from farmed giant catfish (Pangasianodon gigas)",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Solvatomorphism and anion effects in predominantly low spin iron(iii) Schiff base complexes",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Albumin levels in malaria patients: a systematic review and meta-analysis of their association with disease severity",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "A Quasi-3D theory for bending, vibration and buckling analysis of FG-CNTRC and GPLRC curved beams",
+          authors: [
+            "Phimphaka Harding",
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Chemical compositions and characterisation of skin gelatin from farmed giant catfish (Pangasianodon gigas)",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Chemical compositions and characteristics of farm raised giant catfish (Pangasianodon gigas) muscle",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Gel properties of croaker-mackerel surimi blend",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Physicochemical and gelling properties of short-bodied mackerel (Rastrelliger brachysoma) protein isolate prepared using alkaline-aided process",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Physicochemical properties and gel-forming ability of surimi from three species of mackerel caught in Southern Thailand",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Biochemical and gelling properties of tilapia surimi and protein recovered using an acid-alkaline process",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+        {
+          name: "Solvatomorphism and anion effects in predominantly low spin iron(iii) Schiff base complexes",
+          authors: [
+            "Manas Kotepui",
+            "Kwuntida Uthaisar Kotepui",
+            "Frederick Ramirez Masangkay",
+            "Athakorn Promwee",
+            "Aongart Mahittikorn",
+            "Threeraphat Chutimasakul",
+            "S. Bunsueb",
+            "Theerapoom Boonprab",
+            "Yuthana Tantirungrotechai",
+          ],
+          detail: "Scientific Reports, Volume 14, Issue 1, 1 Dec 2024",
+        },
+      ];
+      var documents = ``;
+      documentList.forEach(function (val, i) {
+        documents += `<div class="default-card">
+              <div
+                class="align-items-center wow fadeInUp"
+                data-wow-delay="0.2s"
+              >
+                <h5 class="title-card">
+                  <span class="no-card">${i + 1}</span>${val.name}
+                </h5>
+                <div class="mb-2">
+                  ${tagCard(val.authors)}
+                </div>
+                <div class="txt-c-default">
+                  ${val.detail}
+                </div>
+              </div>
+            </div>`;
+      });
+      document.getElementsByClassName("documentList")[0].innerHTML = documents;
+
+      function tagCard(author) {
+        let autList = ``;
+        author.forEach((element) => {
+          autList += `<span class="tag-card">${element}</span>`;
+        });
+        return autList;
+      }
+
+      var publishedList = [
+        { name: "2024", count: 5 },
+        { name: "2023", count: 19 },
+        { name: "2022", count: 36 },
+        { name: "2021", count: 18 },
+        { name: "2020", count: 1 },
+      ];
+      var published = ``;
+      publishedList.forEach(function (val, i) {
+        let id = `item-pub-${i + 1}`;
+        published += `<div id="${id}" class="item-filter mb-2 item-pub wow fadeInUp"
+          data-wow-delay="0.2s" style=""  onclick="clickItemPub(${i + 1})">
+                  ${val.name} <span> (${val.count})</span>
+                </div>`;
+      });
+      document.getElementsByClassName("publishedList")[0].innerHTML = published;
+      function clickItemPub(id) {
+        let getId = `item-pub-${id}`;
+        // if (localStorage.getItem("itemPubActive") != getId) {
+        //   console.log("pub id " + getId);
+        //   console.log("old pub id " + localStorage.getItem("itemPubActive"));
+
+        //   document.getElementById(
+        //     localStorage.getItem("itemPubActive")
+        //   ).style.color = "";
+        // }
+        document.getElementById(getId).style.color = "#2b9bff";
+        localStorage.setItem("itemPubActive", getId);
+      }
+
+      var authorList = [
+        { name: "Manas Kotepui", count: 117 },
+        {
+          name: "Kwuntida Uthaisar Kotepui",
+          count: 71,
+        },
+        {
+          name: "Frederick Ramirez Masangkay",
+          count: 45,
+        },
+        {
+          name: "Manat Chaijan",
+          count: 15,
+        },
+        {
+          name: "Athakorn Promwee",
+          count: 17,
+        },
+        {
+          name: "Aongart Mahittikorn",
+          count: 20,
+        },
+        {
+          name: "S. Bunsueb",
+          count: 12,
+        },
+        {
+          name: "Threeraphat Chutimasakul",
+          count: 1,
+        },
+        {
+          name: "Theerapoom Boonprab",
+          count: 1,
+        },
+        {
+          name: "Yuthana Tantirungrotechai",
+          count: 1,
+        },
+        {
+          name: "Phimphaka Harding",
+          count: 5,
+        },
+      ];
+      var author = ``;
+      authorList.forEach(function (val, i) {
+        const id = `item-author-${i + 1}`;
+        author += `<div id="${id}" class="item-filter mb-2 item-author line-height-1 wow fadeInUp"
+          data-wow-delay="0.2s" style=""  onclick="clickItemAuthor(${i + 1})">
+                  ${val.name} <span> (${val.count})</span>
+                </div>`;
+      });
+      document.getElementsByClassName("authorList")[0].innerHTML = author;
+      function clickItemAuthor(id) {
+        const getId = `item-author-${id}`;
+        // if (localStorage.getItem("itemAuthorActive") != getId) {
+        //   document.getElementById(
+        //     localStorage.getItem("itemAuthorActive")
+        //   ).style.color = "";
+        // }
+        document.getElementById(getId).style.color = "#2b9bff";
+        localStorage.setItem("itemAuthorActive", getId);
+      }
+
+      var keywordList = [
+        { name: "Surimi", count: 4 },
+        { name: "Mackerel", count: 39 },
+        { name: "Gel properties", count: 2 },
+        { name: "Blend", count: 1 },
+      ];
+      var keyword = ``;
+      keywordList.forEach(function (val, i) {
+        const id = `item-keyword-${i + 1}`;
+        keyword += `<div id="${id}" class="item-filter mb-2 item-keyword line-height-1 wow fadeInUp"
+          data-wow-delay="0.2s" style=""  onclick="clickItemKeyword(${i + 1})">
+                  ${val.name} <span> (${val.count})</span>
+                </div>`;
+      });
+      document.getElementsByClassName("keywordList")[0].innerHTML = keyword;
+      function clickItemKeyword(id) {
+        const getId = `item-keyword-${id}`;
+        // if (localStorage.getItem("itemKeywordActive") != getId) {
+        //   document.getElementById(
+        //     localStorage.getItem("itemKeywordActive")
+        //   ).style.color = "";
+        // }
+        document.getElementById(getId).style.color = "#2b9bff";
+        localStorage.setItem("itemKeywordActive", getId);
+      }
+
+      var affiliationList = [
+        { name: "Prince of Songkla University", count: 2 },
+        { name: "Thaksin University", count: 39 },
+        { name: "Hokkaido University", count: 72 },
+      ];
+      var affiliation = ``;
+      affiliationList.forEach(function (val, i) {
+        const id = `item-affi-${i + 1}`;
+        affiliation += `<div id="${id}" class="item-filter mb-2 item-affi line-height-1 wow fadeInUp"
+          data-wow-delay="0.2s" style=""  onclick="clickItemAffi(${i + 1})">
+                  ${val.name} <span> (${val.count})</span>
+                </div>`;
+      });
+      document.getElementsByClassName("affiliationList")[0].innerHTML =
+        affiliation;
+      function clickItemAffi(id) {
+        const getId = `item-affi-${id}`;
+        // if (localStorage.getItem("itemAffiActive") != getId) {
+        //   document.getElementById(
+        //     localStorage.getItem("itemAffiActive")
+        //   ).style.color = "";
+        // }
+        document.getElementById(getId).style.color = "#2b9bff";
+        localStorage.setItem("itemAffiActive", getId);
+      }
+
+      var fiscalList = [
+        { name: "2016", count: 1 },
+        { name: "2012", count: 2 },
+      ];
+      var fiscal = ``;
+      fiscalList.forEach(function (val, i) {
+        const id = `item-fiscal-${i + 1}`;
+        fiscal += `<div id="${id}" class="item-filter mb-2 item-fiscal line-height-1 wow fadeInUp"
+          data-wow-delay="0.2s" style=""  onclick="clickItemFiscal(${i + 1})">
+                  ${val.name} <span> (${val.count})</span>
+                </div>`;
+      });
+      document.getElementsByClassName("fiscalList")[0].innerHTML = fiscal;
+      function clickItemFiscal(id) {
+        const getId = `item-fiscal-${id}`;
+        // if (localStorage.getItem("itemFiscalActive") != getId) {
+        //   document.getElementById(
+        //     localStorage.getItem("itemFiscalActive")
+        //   ).style.color = "";
+        // }
+        document.getElementById(getId).style.color = "#2b9bff";
+        localStorage.setItem("itemFiscalActive", getId);
+      }
+
+      var resourceList = [
+        { name: "Journal", count: 3774 },
+        { name: "Conference Proceeding", count: 179 },
+        { name: "Book Series", count: 79 },
+      ];
+      var resource = ``;
+      resourceList.forEach(function (val, i) {
+        const id = `item-resource-${i + 1}`;
+        resource += `<div id="${id}" class="item-filter mb-2 item-resource line-height-1 wow fadeInUp"
+          data-wow-delay="0.2s" style=""  onclick="clickItemResource(${i + 1})">
+                  ${val.name} <span> (${val.count})</span>
+                </div>`;
+      });
+      document.getElementsByClassName("resourceList")[0].innerHTML = resource;
+      function clickItemResource(id) {
+        const getId = `item-resource-${id}`;
+        // if (localStorage.getItem("itemResourceActive") != getId) {
+        //   document.getElementById(
+        //     localStorage.getItem("itemResourceActive")
+        //   ).style.color = "";
+        // }
+        document.getElementById(getId).style.color = "#2b9bff";
+        localStorage.setItem("itemResourceActive", getId);
+      }
+    </script>
+  </body>
+</html>
